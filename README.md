@@ -28,10 +28,10 @@ obpdemo\datetime\DatetimeServiceProvider::class,
 
 ### Step 4:
 That’s it – load URL in the browser!
-```php
-http://localhost/<project_name>/public/hello
 
-http://localhost/<project_name>/public/timezones/utc
-```
+[http://localhost/<project_name>/public/hello] (http://localhost/<project_name>/public/hello)
+
+[http://localhost/<project_name>/public/timezones/utc](http://localhost/<project_name>/public/timezones/utc)
+
 
 ## Thank you
