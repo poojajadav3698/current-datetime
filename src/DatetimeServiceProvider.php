@@ -8,9 +8,7 @@ class DatetimeServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->bind('timezone', function ($app){
-            return new timezone;
-        });
+        $this->loadViewsFrom(__DIR__ . '/views', 'datetime');
     }
 
     public function boot()
