@@ -1,0 +1,19 @@
+{
+    "name": "obpdemo/datetime",
+    "description": "Demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pooja",
+            "email": "pooja.optimumbrew@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "obpdemo\\datetime\\": "src/"
+        }
+    }
+}
